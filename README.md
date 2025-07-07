@@ -24,12 +24,16 @@ import { Contratacoes, Contratos, Atas, PCA, Instrumentos } from 'pncp-sdk';
 
 ## ✅ Exemplos de uso
 
+As datas podem ser informadas como `Date` ou como strings nos formatos
+`yyyyMMdd` ou `yyyy-MM-dd`. A SDK converte automaticamente para o padrão
+esperado pela API e retorna objetos `Date` nas respostas.
+
 ### 📄 Consultar Contratações
 
 ```js
 const dados = await Contratacoes.consultarPublicacao({
-  dataInicial: '2025-01-01',
-  dataFinal: '2025-06-30',
+  dataInicial: '20250101',
+  dataFinal: '20250630',
   codigoModalidadeContratacao: 1,
   pagina: 1,
   tamanhoPagina: 20,
@@ -43,8 +47,8 @@ console.log(dados);
 
 ```js
 const atas = await Atas.consultarPeriodo({
-  dataInicial: '2025-01-01',
-  dataFinal: '2025-12-31',
+  dataInicial: '20250101',
+  dataFinal: '20251231',
   pagina: 1,
 });
 console.log(atas);

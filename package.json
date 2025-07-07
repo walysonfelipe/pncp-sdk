@@ -1,6 +1,6 @@
 {
   "name": "pncp-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SDK Node.js para consumir a API PNCP (Portal Nacional de Contratações Públicas)",
   "main": "pncpClient.js",
   "type": "module",

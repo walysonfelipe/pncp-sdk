@@ -1,0 +1,25 @@
+{
+  "name": "pncp-sdk",
+  "version": "1.0.0",
+  "description": "SDK Node.js para consumir a API PNCP (Portal Nacional de Contratações Públicas)",
+  "main": "pncpClient.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "pncp",
+    "sdk",
+    "api",
+    "contratações",
+    "licitações",
+    "governo",
+    "nodejs"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "zod": "^3.22.2"
+  }
+}

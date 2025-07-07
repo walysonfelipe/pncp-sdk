@@ -1,6 +1,6 @@
 # 🌐 PNCP SDK
 
-SDK oficial em **Node.js** para consumir a API do Portal Nacional de Contratações Públicas (PNCP).
+SDK PNCP em **Node.js** para consumir a API do Portal Nacional de Contratações Públicas (PNCP).
 Facilite a integração com dados públicos de contratações, contratos, atas, PCAs e instrumentos no seu projeto Node.js.
 
 ---

@@ -16,7 +16,7 @@
     "governo",
     "nodejs"
   ],
-  "author": "Seu Nome",
+  "author": "WalysonFelipe",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.0",

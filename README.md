@@ -20,6 +20,16 @@ npm install pncp-sdk
 import { Contratacoes, Contratos, Atas, PCA, Instrumentos } from 'pncp-sdk';
 ```
 
+### Uso com TypeScript
+
+```ts
+import type { ContratacoesParams } from 'pncp-sdk';
+
+const dados = await Contratacoes.consultarPublicacao<SeuTipo>(
+  {} as ContratacoesParams
+);
+```
+
 ---
 
 ## ✅ Exemplos de uso
@@ -59,6 +69,11 @@ console.log(atas);
 ## ⚙️ Configuração
 
 Caso necessário, edite o arquivo `config.js` para customizar o `BASE_URL` da API (por padrão, apontando para o ambiente oficial do PNCP).
+
+```js
+// config.js
+export const BASE_URL = 'https://seu-endereco/api';
+```
 
 ---
 

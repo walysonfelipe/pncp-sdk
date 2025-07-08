@@ -29,5 +29,6 @@
   "exports": {
     "require": "./pncpClient.cjs",
     "import": "./pncpClient.js"
-  }
+  },
+  "types": "./pncpClient.d.ts"
 }
